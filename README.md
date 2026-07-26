@@ -21,7 +21,7 @@ To achieve high prediction accuracy, the data undergoes significant transformati
 - `main.py` — The primary pipeline: handles data loading, EDA, feature engineering execution, model training, and final CSV result generation.
 - `preprocessing.py` — Encapsulates custom feature creation, missing value imputation, and dataset transformations.
 - `ensemble.py` — Implements the Ridge + Random Forest (residuals) hybrid model evaluation.
-- `forest.py` & `boosting.py` & `ridge.py` — Cross-validation and visualization modules for individual algorithms (Random Forest, HistGradientBoosting, Ridge Regression).
+- `forest.py` & `ridge.py` — Cross-validation and visualization modules for individual algorithms (Random Forest, Ridge Regression).
 - `encoding.py` / `pca.py` — Utilities for categorical encoding and Principal Component Analysis on numeric weather data.
 
 ## Installation & Usage
